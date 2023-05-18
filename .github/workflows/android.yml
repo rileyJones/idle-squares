@@ -19,7 +19,7 @@ jobs:
       - uses: actions/upload-artifact@v3.1.2
         with:
           name: github-${{ github.sha }}
-          path: app/release/app-release.apk
+          path: app/release/*.apk
       
     
     
