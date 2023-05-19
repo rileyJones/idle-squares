@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     val comboTimerMax = 35
 
     private var scoreThread = thread{
-        var shouldPause = false
+        //var shouldPause = false
         while(true) {
 
             if (comboTimer <= 0) {
